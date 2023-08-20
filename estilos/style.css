@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../imagem/paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    height: 400px;
+    height: 400px;
+    
+}
+
+#app{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(163, 165, 165, 0.171);
+    width: 300px;
+    
+    padding: 50px;
+    border-radius: 10px;
+   
+}
+
+#app input{
+    border: 0;
+    margin-right: 10px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    padding: 0px 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #363636;
+    color: white;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #999595;
+}
+
+#resul{
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(163, 165, 165, 0.171)
+}
+
+#resul ul{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+    color: white;
+    
+}
+
+#resul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+#resul a{
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 0.76);
+    color: white;
+    text-decoration: none;
+}
